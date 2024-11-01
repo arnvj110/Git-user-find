@@ -1,0 +1,125 @@
+/* App.css */
+
+body {
+  
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  /* Light background for a clean look */
+  margin: 0;
+  padding: 20px;
+  
+}
+
+#heading {
+  text-align: center;
+  color: #343a40;
+  /* Darker text for better readability */
+  margin-bottom: 20px;
+  font-size: 3rem;
+  /* Increase heading size */
+  padding-bottom: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+#input {
+  padding: 10px;
+  font-size: 1.3rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1.3rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.512);
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+#work {
+  text-align: center;
+  color: #ff0000;
+  font-size: 1.1rem;
+}
+
+.abc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background: rgb(180, 34, 195);
+  background: radial-gradient(circle, rgba(180, 34, 195, 1) 31%, rgba(55, 45, 253, 1) 100%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin: 10px;
+  width: 100%;
+  max-width: 550px;
+  padding: 15px;
+  border-radius: 50px;
+  background: rgb(6, 214, 187);
+  background: linear-gradient(90deg, rgba(6, 214, 187, 1) 0%, rgba(253, 73, 29, 1) 41%, rgba(252, 69, 199, 1) 100%);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.img {
+  transition: 0.2s transform;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+#username {
+  
+  font-size: 72px;
+  color: transparent;
+  background: -webkit-linear-gradient(#eee, hsl(83, 85%, 40%));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.user-details {
+  color: white;
+}
+
+.user-details p {
+  font-size: 1.3rem;
+}
